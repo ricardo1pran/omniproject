@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!-- saved from url=(0362)https://www.powr.io/plugins/graph/cached_view?load=sync&index=0&unique_label=&powr_token=weebly_931450186515087592&user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&demo_mode=false&external_type=weebly-integrated&template_powr_token=&color=rgb(187%2C%20187%2C%20187)&backgroundColor=rgb(34%2C%2034%2C%2034)&fontFamily=Lato%2C%20sans-serif -->
+<html lang="en" class="geolocation audio canvas video supports csstransforms3d csstransitions details texttrackapi track wf-opensans-n4-active wf-active" style="overflow: hidden;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--APP VIEW TEMPLATE-->
+<script type="text/javascript" src="./graph_files/4474f5c124"></script><script type="text/javascript" async="" src="./graph_files/atrk.js.download"></script><script src="./graph_files/nr-1071.min.js.download"></script><script src="./graph_files/jquery.min.js.download"></script>
+<script async="async" defer="defer" src="./graph_files/bootstrap.min.js.download"></script>
+<link rel="shortcut icon" type="image/x-icon" href="https://s3-us-west-1.amazonaws.com/powr/images/favicon.ico">
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4474f5c124","applicationID":"77339425","transactionName":"dV0NRxBfDVxcEBdXQkZBTFADUwlVXT1OX1dB","queueTime":1,"applicationTime":13,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="canonical" href="https://www.powr.io/plugins/view?id=14885047">
+<link href="./graph_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./graph_files/font-awesome.min.css" rel="stylesheet">
+<script async="async" defer="defer" src="./graph_files/webfont.js.download"></script>
+<link rel="stylesheet" media="screen" href="./graph_files/graph-785350b2f82fe84b1e5b9c6d8413449687f69637defa44e4791d45dff0cb338a.css">
+<!--[if IE 8]>
+<link rel="stylesheet" media="screen" href="/assets/ie8-overrides-4268b880fea6f0682d37ca9847f1875f1f2c718213c90ac59f3c95944f3458f0.css" />
+<script src="/javascripts/ie8-overrides.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" media="screen" href="/assets/ie9-overrides-b8e7e225789627bd3ea6ec49cbc29b985cfd360df85a9ec0de123549e06d3a40.css" />
+<![endif]-->
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="bCE80TFP9hdDT4gh9jBB4cjYJp2lBt4c0/EFJUZFhmQzrnFRY3nxr/ecxzbZgKp8LD08BNlAfmfen8Qh2CAIog==">
+<title>Graph</title><meta content="Dialy Projects Status" name="description"><meta content="Graph" property="og:title"><meta content="website" property="og:type"><meta content="https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif" property="og:url"><meta content="https://s3-us-west-1.amazonaws.com/powr/plugins/graph/318x318.jpg" property="og:image"><meta content="Dialy Projects Status" property="og:description"><meta content="summary" name="twitter:card"><meta content="Graph" name="twitter:title"><meta content="Dialy Projects Status" name="twitter:description"><link rel="stylesheet" href="./graph_files/css" media="all"><meta content="https://s3-us-west-1.amazonaws.com/powr/plugins/graph/318x318.jpg" name="twitter:image"></head><body id="apps-cached_view"><div id="dynamicStyle">
+    <style>
+       .graphWrapper{
+    border-color: #333;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    
+        background: -webkit-linear-gradient( #FFF , #e7e7e7 );
+        background: -o-linear-gradient( #FFF , #e7e7e7 );
+        background: -moz-linear-gradient( #FFF , #e7e7e7 );
+        background: -linear-gradient( #FFF , #e7e7e7 );
+        background-image: linear-gradient(to bottom, #FFF 0%, #e7e7e7 100%);
+    
+}
+
+       .graphWrapper{
+  max-width: 358px;
+}
+      h1{
+        text-align: center;
+      }
+      .xAxisLabel, .yAxisLabel, .c3-axis-x-label, .c3-axis-y-label{
+        font-size: 12px;
+        fill: #494949;
+        font-family: Open Sans;
+      }
+      .graph{
+        height: 388px;
+      }
+      .graphWrapper h1{
+        font-size: 20px;
+        color: #000;
+        font-family: Open Sans;
+      }
+      .colorBox {
+        width: 12px;
+        height: 12px;
+      }
+      .legend{
+        font-family: Open Sans;
+        font-size: 12px;
+        color: #000;
+      }
+      .legendBox{
+        background-color: #FFF;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+      }
+
+      .c3-line{
+        stroke-width: 3px !important;
+      }
+
+      tspan{
+        font-size: 12px;
+        fill: #494949;
+        font-family: Open Sans;
+      }
+      .c3-axis-x-label, .c3-axis-y-label{
+        font-size: 18px !important;
+        fill: #494949 !important;
+        font-family: Open Sans !important;
+      }
+      .c3-axis-y-label{
+        /*transform: translateX(-3px) !important;*/
+      }
+      .powrMark {
+        background: #FFF;
+        color:#000!important;
+      }
+      .c3-axis .tick text{
+        transform: translateY(3px) !important;
+      }
+      .c3-axis line, .c3-axis path{
+        stroke: #494949 !important;
+      }
+      .c3-legend-item text{
+        stroke: #000 !important;
+        font-family: Open Sans !important;
+      }
+
+      
+       .c3-axis-x-label, .c3-axis-y-label{
+          stroke:none;
+       }
+       
+
+      
+        .rightLegend .legendWrapper{
+          /*width: 205.85px !important;*/
+          /*height: 304.3px; *//*Height is specified for pie chart*/
+        }
+        .rightLegend .graph, .rightLegend .legendWrapper{
+          height: 304.3px; /*Height is specified for pie chart*/
+        }
+        .bottomLegend .graph,{
+          height: 358px;
+        }
+      
+
+
+    </style>
+</div>
+
+
+<div class="text-center hid btn btn-primary btn-xs design_2" data-content="&lt;a href=&#39;https://www.powr.io/knowledge-base/139&#39; target=&#39;_blank&#39;&gt;&lt;u style=&#39;text-decoration:underline;&#39;&gt;Only you can see this&lt;/u&gt;&lt;/a&gt;" data-placement="bottom" data-toggle="popover" data-trigger="hover" id="editMe" tabindex="1000" data-original-title="" title="" style="">
+<i class="fa fa-cogs"></i>
+Edit Graph
+</div>
+<div id="appView" class="">
+
+  <div class="graphWrapper hardDarkShadow rightLegend clearfix pie">
+    <div class="powrMark text-center powrMarkHighlight">
+<a class="powrMarkLink" href="https://www.powr.io/?via=freewebsitetools" target="_blank">
+<div class="hid userHasApp" data-placement="top" data-toggle="tooltip" title="" data-original-title="Upgrade to remove this logo!"></div>
+<span class="powrIcon icon-logo"></span>
+<span class="powrMarkText">Free website tools</span>
+</a>
+</div>
+
+    <h1>Dialy Projects Status</h1>
+    <div class="graph c3" style="max-height: 304.297px; position: relative;"><svg width="295.796875" height="304.297" style="overflow: hidden;"><defs><clippath id="c3-1524449683504-clip"><rect width="295.796875" height="300.297"></rect></clippath><clippath id="c3-1524449683504-clip-xaxis"><rect x="-31" y="-20" width="357.796875" height="20"></rect></clippath><clippath id="c3-1524449683504-clip-yaxis"><rect x="-29" y="-4" width="20" height="324.297"></rect></clippath><clippath id="c3-1524449683504-clip-grid"><rect width="295.796875" height="300.297"></rect></clippath><clippath id="c3-1524449683504-clip-subchart"><rect width="295.796875"></rect></clippath></defs><g transform="translate(0.5,4.5)"><text class="c3-text c3-empty" text-anchor="middle" dominant-baseline="middle" x="147.8984375" y="150.1485" style="opacity: 0;"></text><rect class="c3-zoom-rect" width="295.796875" height="300.297" style="opacity: 0;"></rect><g clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip)" class="c3-regions" style="visibility: hidden;"></g><g clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip-grid)" class="c3-grid" style="visibility: hidden;"><g class="c3-xgrid-focus"><line class="c3-xgrid-focus" x1="-10" x2="-10" y1="0" y2="300.297" style="visibility: hidden;"></line></g></g><g clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip)" class="c3-chart"><g class="c3-event-rects c3-event-rects-single" style="fill-opacity: 0;"><rect class=" c3-event-rect c3-event-rect-0" x="0.1015625" y="0" width="295.796875" height="300.297"></rect></g><g class="c3-chart-bars"><g class="c3-chart-bar c3-target c3-target-finished c3-focused" style="pointer-events: none;"><g class=" c3-shapes c3-shapes-finished c3-bars c3-bars-finished" style="cursor: pointer;"></g></g><g class="c3-chart-bar c3-target c3-target-helped c3-defocused" style="pointer-events: none;"><g class=" c3-shapes c3-shapes-helped c3-bars c3-bars-helped" style="cursor: pointer;"></g></g><g class="c3-chart-bar c3-target c3-target-undone c3-defocused" style="pointer-events: none;"><g class=" c3-shapes c3-shapes-undone c3-bars c3-bars-undone" style="cursor: pointer;"></g></g></g><g class="c3-chart-lines"><g class="c3-chart-line c3-target c3-target-finished c3-focused" style="opacity: 1; pointer-events: none;"><g class=" c3-shapes c3-shapes-finished c3-lines c3-lines-finished"></g><g class=" c3-shapes c3-shapes-finished c3-areas c3-areas-finished"></g><g class=" c3-selected-circles c3-selected-circles-finished"></g><g class=" c3-shapes c3-shapes-finished c3-circles c3-circles-finished" style="cursor: pointer;"></g></g><g class="c3-chart-line c3-target c3-target-helped c3-defocused" style="opacity: 1; pointer-events: none;"><g class=" c3-shapes c3-shapes-helped c3-lines c3-lines-helped"></g><g class=" c3-shapes c3-shapes-helped c3-areas c3-areas-helped"></g><g class=" c3-selected-circles c3-selected-circles-helped"></g><g class=" c3-shapes c3-shapes-helped c3-circles c3-circles-helped" style="cursor: pointer;"></g></g><g class="c3-chart-line c3-target c3-target-undone c3-defocused" style="opacity: 1; pointer-events: none;"><g class=" c3-shapes c3-shapes-undone c3-lines c3-lines-undone"></g><g class=" c3-shapes c3-shapes-undone c3-areas c3-areas-undone"></g><g class=" c3-selected-circles c3-selected-circles-undone"></g><g class=" c3-shapes c3-shapes-undone c3-circles c3-circles-undone" style="cursor: pointer;"></g></g></g><g class="c3-chart-arcs" transform="translate(147.8984375,145.1485)"><text class="c3-chart-arcs-title" style="text-anchor: middle; opacity: 0;"></text><g class="c3-chart-arc c3-target c3-target-finished c3-focused"><g class=" c3-shapes c3-shapes-finished c3-arcs c3-arcs-finished"><path class=" c3-shape c3-shape c3-arc c3-arc-finished" transform="scale(1,1)" style="fill: rgb(31, 119, 180); cursor: pointer;" d="M8.71351990432968e-15,-142.30257916644A142.30257916644,142.30257916644 0 1,1 -132.1957832155087,52.67161415277824L0,0Z"></path></g><text dy=".35em" class="" transform="translate(91.30474057722134,61.90615017513134)" style="opacity: 1; text-anchor: middle; pointer-events: none;">69.0%</text></g><g class="c3-chart-arc c3-target c3-target-helped c3-defocused"><g class=" c3-shapes c3-shapes-helped c3-arcs c3-arcs-helped"><path class=" c3-shape c3-shape c3-arc c3-arc-helped" transform="scale(1,1)" style="fill: rgb(255, 127, 14); cursor: pointer;" d="M-128.09759854551118,51.03874813833779A137.891075,137.891075 0 0,1 -29.642505093921372,-134.66725829396123L0,0Z"></path></g><text dy=".35em" class="" transform="translate(-97.4627404672879,-51.67147474173428)" style="opacity: 1; text-anchor: middle; pointer-events: none;">27.6%</text></g><g class="c3-chart-arc c3-target c3-target-undone c3-defocused"><g class=" c3-shapes c3-shapes-undone c3-arcs c3-arcs-undone"><path class=" c3-shape c3-shape c3-arc c3-arc-undone" transform="scale(1,1)" style="fill: rgb(44, 160, 44); cursor: pointer;" d="M-29.642505093921372,-134.66725829396123A137.891075,137.891075 0 0,1 -2.533017954446064e-14,-137.891075L0,0Z"></path></g><text dy=".35em" class="" transform="translate(-11.926918142737783,-109.66620128825487)" style="opacity: 1; text-anchor: middle; pointer-events: none;"></text></g></g><g class="c3-chart-texts"><g class="c3-chart-text c3-target c3-target-finished c3-focused" style="opacity: 1; pointer-events: none;"><g class=" c3-texts c3-texts-finished"></g></g><g class="c3-chart-text c3-target c3-target-helped c3-defocused" style="opacity: 1; pointer-events: none;"><g class=" c3-texts c3-texts-helped"></g></g><g class="c3-chart-text c3-target c3-target-undone c3-defocused" style="opacity: 1; pointer-events: none;"><g class=" c3-texts c3-texts-undone"></g></g></g></g><g clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip-grid)" class="c3-grid c3-grid-lines"><g class="c3-xgrid-lines"></g><g class="c3-ygrid-lines"></g></g><g class="c3-axis c3-axis-x" clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip-xaxis)" transform="translate(0,300.297)" style="visibility: visible; opacity: 0;"><text class="c3-axis-x-label" transform="" style="text-anchor: end;" x="295.796875" dx="-0.5em" dy="-0.5em"></text><g class="tick" transform="translate(148, 0)" style="opacity: 1;"><line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform="" style="text-anchor: middle; display: block;"><tspan x="0" dy=".71em" dx="0">0</tspan></text></g><path class="domain" d="M0,6V0H295.796875V6"></path></g><g class="c3-axis c3-axis-y" clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip-yaxis)" transform="translate(0,0)" style="visibility: visible; opacity: 0;"><text class="c3-axis-y-label" transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em" dy="1.2em"></text><g class="tick" transform="translate(0,289)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">0</tspan></text></g><g class="tick" transform="translate(0,263)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">10</tspan></text></g><g class="tick" transform="translate(0,236)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">20</tspan></text></g><g class="tick" transform="translate(0,210)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">30</tspan></text></g><g class="tick" transform="translate(0,184)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">40</tspan></text></g><g class="tick" transform="translate(0,158)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">50</tspan></text></g><g class="tick" transform="translate(0,131)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">60</tspan></text></g><g class="tick" transform="translate(0,105)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">70</tspan></text></g><g class="tick" transform="translate(0,79)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">80</tspan></text></g><g class="tick" transform="translate(0,53)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">90</tspan></text></g><g class="tick" transform="translate(0,26)" style="opacity: 1;"><line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;"><tspan x="-9" dy="3">100</tspan></text></g><path class="domain" d="M-6,1H0V300.297H-6"></path></g><g class="c3-axis c3-axis-y2" transform="translate(295.796875,0)" style="visibility: hidden; opacity: 0;"><text class="c3-axis-y2-label" transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em" dy="-0.5em"></text><g class="tick" transform="translate(0,301)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0</tspan></text></g><g class="tick" transform="translate(0,271)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.1</tspan></text></g><g class="tick" transform="translate(0,241)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.2</tspan></text></g><g class="tick" transform="translate(0,211)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.3</tspan></text></g><g class="tick" transform="translate(0,181)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.4</tspan></text></g><g class="tick" transform="translate(0,151)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.5</tspan></text></g><g class="tick" transform="translate(0,121)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.6</tspan></text></g><g class="tick" transform="translate(0,91)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.7</tspan></text></g><g class="tick" transform="translate(0,61)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.8</tspan></text></g><g class="tick" transform="translate(0,31)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">0.9</tspan></text></g><g class="tick" transform="translate(0,1)" style="opacity: 1;"><line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;"><tspan x="9" dy="3">1</tspan></text></g><path class="domain" d="M6,1H0V300.297H6"></path></g></g><g transform="translate(0.5,305.5)" style="visibility: hidden;"><g clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip-subchart)" class="c3-chart"><g class="c3-chart-bars"></g><g class="c3-chart-lines"></g></g><g clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip)" class="c3-brush" style="pointer-events: all; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><rect class="background" x="0" width="295.796875" style="visibility: hidden; cursor: crosshair;"></rect><rect class="extent" x="0" width="0" style="cursor: move;"></rect><g class="resize e" transform="translate(0,0)" style="cursor: ew-resize; display: none;"><rect x="-3" width="6" height="6" style="visibility: hidden;"></rect></g><g class="resize w" transform="translate(0,0)" style="cursor: ew-resize; display: none;"><rect x="-3" width="6" height="6" style="visibility: hidden;"></rect></g></g><g class="c3-axis-x" transform="translate(0,0)" clip-path="url(https://www.powr.io/plugins/graph/cached_view?load=sync&amp;index=0&amp;unique_label=&amp;powr_token=weebly_931450186515087592&amp;user_label=weebly_931450186515087592_099b5fa4-007f-4570-9270-94bec5676146&amp;demo_mode=false&amp;external_type=weebly-integrated&amp;template_powr_token=&amp;color=rgb(187%2C%20187%2C%20187)&amp;backgroundColor=rgb(34%2C%2034%2C%2034)&amp;fontFamily=Lato%2C%20sans-serif#c3-1524449683504-clip-xaxis)" style="visibility: hidden; opacity: 0;"><g class="tick" transform="translate(148, 0)" style="opacity: 1;"><line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform="" style="text-anchor: middle; display: block;"><tspan x="0" dy=".71em" dx="0">0</tspan></text></g><path class="domain" d="M0,6V0H295.796875V6"></path></g></g><g transform="translate(0,304.297)" style="visibility: hidden;"></g><text class="c3-title" x="147.8984375" y="0"></text></svg><div class="c3-tooltip-container" style="position: absolute; pointer-events: none; display: block; top: 221.5px; left: 249.5px;"><table class="c3-tooltip"><tbody><tr class="c3-tooltip-name--finished"><td class="name"><span style="background-color:#1f77b4"></span>finished</td><td class="value">69.0%</td></tr></tbody></table></div></div>
+    <div class="legendWrapper">
+      <div class="legend fitTextParent">
+
+      <div class="legendBox"><div data-id="finished" style="background-color: rgb(31, 119, 180);"><span class="textBox fitText" style="font-size: 7px;">finished</span></div><div data-id="helped" style="background-color: rgb(255, 127, 14);"><span class="textBox fitText" style="font-size: 10px;">helped</span></div><div data-id="undone" style="background-color: rgb(44, 160, 44);"><span class="textBox fitText" style="font-size: 10px;">undone</span></div></div></div>
+    </div>
+  </div>
+  <div class="alternates usefulContentLink hid"></div>
+
+</div>
+<script id="graphStyleTemplate" type="text/html">
+    <style>
+       .graphWrapper{
+    border-color: {{=m.backgroundBorderColor}};
+    border-radius: {{=m.backgroundBorderRadius}};
+    border-width: {{=m.backgroundBorderWidth}};
+    border-style: solid;
+    {{ if(m.backgroundGradient == true){ }}
+        background: -webkit-linear-gradient( {{=m.backgroundStartColor}} , {{=m.backgroundEndColor}} );
+        background: -o-linear-gradient( {{=m.backgroundStartColor}} , {{=m.backgroundEndColor}} );
+        background: -moz-linear-gradient( {{=m.backgroundStartColor}} , {{=m.backgroundEndColor}} );
+        background: -linear-gradient( {{=m.backgroundStartColor}} , {{=m.backgroundEndColor}} );
+        background-image: linear-gradient(to bottom, {{=m.backgroundStartColor}} 0%, {{=m.backgroundEndColor}} 100%);
+    {{ }else{ }}
+        background: {{=m.backgroundColor}};
+    {{ } }}
+}
+
+       .graphWrapper{
+  max-width: {{= (m.pluginWidth == '1000px') ? '100%' : m.pluginWidth }};
+}
+      h1{
+        text-align: {{=m.titleAlign}};
+      }
+      .xAxisLabel, .yAxisLabel, .c3-axis-x-label, .c3-axis-y-label{
+        font-size: {{=m.axesFontSize}};
+        fill: {{=m.axesFontColor}};
+        font-family: {{=m.axesFontFamily}};
+      }
+      .graph{
+        height: {{=parseInt(m.pluginHeight) - parseInt(m.axesFontSize)}}px;
+      }
+      .graphWrapper h1{
+        font-size: {{=m.titleFontSize}};
+        color: {{=m.titleFontColor}};
+        font-family: {{=m.titleFontFamily}};
+      }
+      .colorBox {
+        width: {{=m.legendFontSize}};
+        height: {{=m.legendFontSize}};
+      }
+      .legend{
+        font-family: {{=m.legendFontFamily}};
+        font-size: {{=m.legendFontSize}};
+        color: {{=m.legendFontColor}};
+      }
+      .legendBox{
+        background-color: {{=m.legendBackgroundColor}};
+        border: 1px solid {{=m.legendBorderColor}};
+        border-radius: {{=0.5*parseInt(m.backgroundBorderRadius)}}px;
+      }
+
+      .c3-line{
+        stroke-width: {{=m.plotlineThickness}} !important;
+      }
+
+      tspan{
+        font-size: {{=m.axesFontSize}};
+        fill: {{=m.axesFontColor}};
+        font-family: {{=m.axesFontFamily}};
+      }
+      .c3-axis-x-label, .c3-axis-y-label{
+        font-size: {{=1.5*parseInt(m.axesFontSize)}}px !important;
+        fill: {{=m.axesFontColor}} !important;
+        font-family: {{=m.axesFontFamily}} !important;
+      }
+      .c3-axis-y-label{
+        /*transform: translateX(-{{=parseInt(m.axesFontSize)/4}}px) !important;*/
+      }
+      .powrMark {
+        background: {{=m.backgroundColor}};
+        color:{{=m.titleFontColor}}!important;
+      }
+      .c3-axis .tick text{
+        transform: translateY({{=parseInt(m.axesFontSize)/4}}px) !important;
+      }
+      .c3-axis line, .c3-axis path{
+        stroke: {{=m.axesFontColor}} !important;
+      }
+      .c3-legend-item text{
+        stroke: {{=m.legendFontColor}} !important;
+        font-family: {{=m.legendFontFamily}} !important;
+      }
+
+      {{ if(m.graphType == 'horizontalBar'){ }}
+        .graph svg{
+          /*left: 15%;*/
+          /*width: 70%;*/
+        }
+      {{ } else { }}
+       .c3-axis-x-label, .c3-axis-y-label{
+          stroke:none;
+       }
+       {{ } }}
+
+      {{ if(m.graphType == 'pie'){ }}
+        .rightLegend .legendWrapper{
+          /*width: {{= parseInt(m.pluginWidth) - 0.5*0.85*parseInt(m.pluginWidth) }}px !important;*/
+          /*height: {{= 0.85*parseInt(m.pluginWidth) }}px; *//*Height is specified for pie chart*/
+        }
+        .rightLegend .graph, .rightLegend .legendWrapper{
+          height: {{= 0.85*parseInt(m.pluginWidth) }}px; /*Height is specified for pie chart*/
+        }
+        .bottomLegend .graph,{
+          height: {{= 1*parseInt(m.pluginWidth) }}px;
+        }
+      {{ }else{ }}
+        .rightLegend .legendWrapper{
+          height: {{=m.pluginHeight}};
+        }
+      {{ } }}
+
+
+    </style>
+</script>
+<script id="graphTemplate" type="text/html">
+
+  <div class="graphWrapper {{=m.backgroundShadow}} {{=m.legendPosition}}Legend clearfix {{=m.graphType}}">
+    <div class='powrMark text-center powrMarkHighlight'>
+<a class='powrMarkLink' href='https://www.powr.io?via=freewebsitetools' target='_blank'>
+<div class='hid userHasApp' data-placement='top' data-toggle='tooltip' title='Upgrade to remove this logo!'></div>
+<span class='powrIcon icon-logo'></span>
+<span class='powrMarkText'>Free website tools</span>
+</a>
+</div>
+
+    <h1>{{=m.title}}</h1>
+    <div class="graph"></div>
+    <div class="legendWrapper">
+      <div class="legend fitTextParent">
+
+      </div>
+    </div>
+  </div>
+  <div class='alternates usefulContentLink hid'></div>
+
+</script>
+
+<script>
+  window.CONTENT=null;
+  window.BACKUP_CONTENT=null;
+  window.META=null;
+  window.GLOBALS=null;
+  window.IS_EU = false;
+</script>
+
+<script>
+  window.APP_DETAILS = {"slug":"graph","app_namespace":"graph"};
+</script>
+<script src="./graph_files/commons-93357fe20465eee45573.js.download"></script>
+<script src="./graph_files/apps-view-e3225d0568575324cd26.js.download"></script>
+<script src="./graph_files/graph-284bd22d8c512d426965.js.download"></script>
+
+
+<img src="./graph_files/atrk.gif" style="display:none" height="1" width="1"></body></html>
