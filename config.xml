@@ -12,6 +12,7 @@
     <platform name="android" />
     <platform name="winphone">
         <preference name="windows-arch" value="arm" />
+        <preference name="windows-appx-target" value="uap" />
     </platform>
 
 </widget>
