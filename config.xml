@@ -9,8 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <platform name="winphone">  
-        <preference name="windows-appx-target" value="uap" /> <!-- uap, 8.1-win, 8.1-phone -->  
-        <preference name="windows-arch" value="arm" /> <!-- anycpu, arm, x86, and x64 -->  
-    </platform>
+    
 </widget>
