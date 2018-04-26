@@ -4,10 +4,14 @@
     <description>
         A Solution App for Creative Art.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="pptibca5@gmail.com" href="http://ricardogunawan.com">
+        Ricardo1pran and Team
     </author>
     <content src="index.html" />
     <access origin="*" />
-    
+    <platform name="android" />
+    <platform name="winphone">
+        <preference name="windows-arch" value="arm" />
+    </platform>
+
 </widget>
