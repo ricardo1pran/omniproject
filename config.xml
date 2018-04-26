@@ -2,11 +2,15 @@
 <widget id="com.omni.dennis" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Omniproject</name>
     <description>
-        A blank PhoneGap app.
+        A Solution App for Creative Art.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <platform name="winphone">  
+        <preference name="windows-appx-target" value="uap" /> <!-- uap, 8.1-win, 8.1-phone -->  
+        <preference name="windows-arch" value="arm" /> <!-- anycpu, arm, x86, and x64 -->  
+    </platform>
 </widget>
